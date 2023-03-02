@@ -24,12 +24,12 @@ include_once ("islemler.php");
 <body>
 <div class="container d-flex">
     <form name="card" method="post" action="islemler.php" novalidate>
-    <div class="row card mt-5 bg-success rounded-5" style="height: 250px">
-            <h3 style="text-align:center; color: whitesmoke; margin-top: 10px">Yeni Card Oluştur..</h3>
+    <div class="row card mt-5 bg-dark rounded-5" style="height: 250px">
+            <h2 style="text-align:center; color: whitesmoke; margin-top: 10px">Kahve Oluştur..</h2>
             <input type="text" name="card_title" placeholder="Başlığı Giriniz.." class="rounded-pill">
             <input type="text" name="card_image" placeholder="Fotoğraf yolunu giriniz.." class="rounded-pill mt-2">
             <input type="text" name="card_text" placeholder="Texti giriniz.." class="rounded-pill mt-2">
-        <input type="submit" name="card_submit" placeholder="gönder" class="btn rounded-pill mt-3 p-1 bg-primary-subtle">
+        <input type="submit" name="card_submit" placeholder="gönder" class="btn  rounded-pill mt-3 p-1 bg-warning-subtle">
     </div>
         </form>
 

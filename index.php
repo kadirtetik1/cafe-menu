@@ -71,49 +71,35 @@ include "navbar.php";
 
     <section class="mt-2 p-4">
         <div class="d-flex justify-content-center p-4">
-            <h2>Cards</h2>
+            <h2>Kahve Seçenekleri</h2>
         </div>
 
         <div class="row d-flex justify-content-center">
-            <div class="card col-lg-3 m-3 p-0">
-                <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="blog-resim">
-                <div class="card-body">
-                    <h5 class="card-title placeholder-glow">
-                        <span class="placeholder col-9 rounded-pill"></span>
-                    </h5>
-                    <p class="card-text placeholder-glow">
-                        <span class="placeholder col-12 mt-3"></span>
-                        <span class="placeholder col-12"></span>
-                        <span class="placeholder col-12"></span>
-                        <span class="placeholder col-12"></span>
-                        <span class="placeholder col-12"></span>
-                    </p>
-                </div>
-            </div>
+
 
             <div class="card col-lg-3 m-3 p-0">
                 <img class="img-fluid" src="https://via.placeholder.com/300x200"  alt="blog-resim">
                 <div class="card-body">
-                    <div class="card-title d-flex justify-content-center"><h2>Başlık</h2></div>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-                    <a href="#" class="btn btn-primary d-flex justify-content-center">Read More</a>
+                    <div class="card-title d-flex justify-content-center"><h2 style="color: sienna">Latte</h2></div>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                    <a href="#" class="btn btn-success d-flex justify-content-center">Sipariş Ver</a>
                 </div>
             </div>
 
             <div class="card col-lg-3 m-3 p-0">
                 <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="blog-resim">
                 <div class="card-body">
-                    <div class="card-title">Başlık</div>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <div class="card-title d-flex justify-content-center"><h2 style="color: sienna">Americano</h2></div>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                    <a href="#" class="btn btn-success d-flex justify-content-center">Sipariş Ver</a>
                 </div>
             </div>
             <div class="card col-lg-3 m-3 p-0">
                 <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="blog-resim">
                 <div class="card-body">
-                    <div class="card-title">Başlık</div>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <div class="card-title d-flex justify-content-center"><h2 style="color: sienna">Mocha</h2></div>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+                    <a href="#" class="btn btn-success d-flex justify-content-center">Sipariş Ver</a>
                 </div>
             </div>
 
@@ -129,9 +115,9 @@ include "navbar.php";
                 <div class="card col-lg-3 m-3 p-0">
                     <img src="<?php echo $oku['card_image'] ?> " class="img-fluid" alt="blog-resim">
                     <div class="card-body">
-                        <div class="card-title"><h2> <?php echo $oku['card_title'] ?> </h2></div>
+                        <div class="card-title d-flex justify-content-center"><h2 style="color: sienna"> <?php echo $oku['card_title'] ?> </h2></div>
                         <p class="card-text"> <?php echo $oku['card_text'] ?> </p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                        <a href="#" class="btn btn-success d-flex justify-content-center">Sipariş Ver</a>
                     </div>
                 </div>
             <?php }
