@@ -8,6 +8,8 @@ PHP ve Bootstrap kullanılarak oluşturulumuş responsive ve admin panelli bir c
 ## Screenshots
 ### Desktop View
 ![alt text](https://github.com/kadirtetik1/cafe-menu/blob/main/images/ss1.jpg)
+
+
 ![alt text](https://github.com/kadirtetik1/cafe-menu/blob/main/images/ss2.jpg)
 
 ### Mobile View
